@@ -1,0 +1,5 @@
+Clean and Easy solution with python so....basically in this qn it states that u need to replace zeros with x okay..cool..but codition is that if group of zeros are there then u r restricted to replace with X.It means u can replace zero or group of zeros with X if in the surrounding all X are there ..similar to island u can think or assume inorder to solve this question.... so if the qn states that  need to change for single zero then what would be the ans?? just make all the zeros into X which are not present in the boundary right!! cool ..so u need to find set of zeros so ...now hoe to solve??? hmmm  okay.. ok .In the question its state that u can move left, right top,bottom so simply use recursion ..... and problem solved right??!!  here is the solution Sc=O(n*m)
+
+#at max  what will happen if all the elements are zero then our recursion process will call for all the elements..right!!
+
+Tc-0(n*m)+O(n*m)(for all elements recursion will visit at max..) +0(1)--For checking..if it valid to move or not .....so if u find any error feel free to comment..i will get Back to You..
