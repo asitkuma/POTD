@@ -23,3 +23,5 @@ class Solution:
             return l3[0]
         return -1    
 
+TC-O(V)*(V+E)
+SC-O(V)
